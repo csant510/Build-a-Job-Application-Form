@@ -8,7 +8,23 @@
 </head>
 <body>
     <div class="container">
-        <form></form>
+        <form>
+            <input type="text" id="name"> 
+            <input type="email" id="email">
+            <select id="position">
+                <option value="">Select Position</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Manager</option>
+            </select>
+            <fieldset class="radio-group">
+                <legend>Availability</legend>
+                <input type="radio" name="availability" value="fulltime" id="fulltime">
+                <label for="fulltime" checked> Full Time</label>
+                 <input type="radio" name="availability" value="parttime" id="parttime">
+                <label for="parttime"> Part Time</label>
+            </fieldset>
+        </form>
     </div>
 </body>
 </html>
